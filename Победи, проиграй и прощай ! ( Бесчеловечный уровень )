@@ -493,7 +493,7 @@ class Gui:
         if len(self.indicator) == 0:
             self.game = "LOSE"
 
-        elif len(self.indicator) == 2:
+        elif len(self.indicator) == 37:
             self.game = "WIN"
 
 level = 1
